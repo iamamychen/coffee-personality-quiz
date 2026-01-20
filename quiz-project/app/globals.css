@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --background-start: #f5ebe0;
+  --background-end: #eddcd2;
+  --card-bg: #fffbf7;
+  --accent-light: #a68a64;
+  --accent-dark: #5c4033;
+  --text-primary: #3d2c1f;
+  --text-secondary: #6b5344;
+}
+
+@theme inline {
+  --color-background: var(--background-start);
+  --color-foreground: var(--text-primary);
+  --font-heading: var(--font-lora);
+  --font-body: var(--font-source-sans);
+}
+
+body {
+  background: linear-gradient(135deg, var(--background-start) 0%, var(--background-end) 100%);
+  color: var(--text-primary);
+  font-family: var(--font-body), 'Source Sans Pro', sans-serif;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), 'Lora', serif;
+}
