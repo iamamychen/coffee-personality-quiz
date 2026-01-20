@@ -175,7 +175,7 @@ export default function Home() {
             className="mb-4 text-4xl font-bold"
             style={{ color: "var(--accent-dark)", fontFamily: "var(--font-lora), Lora, serif" }}
           >
-            Discover Your Coffee Personality
+            Welcome! Learn Your Coffee Personality in 5 Simple Questions
           </h1>
           <p className="mb-8 text-lg" style={{ color: "var(--text-secondary)" }}>
             Answer 5 quick questions to find out which coffee matches your vibe.
